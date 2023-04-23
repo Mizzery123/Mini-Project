@@ -83,7 +83,7 @@ Which indicator and model is the best for prediction of fake news?
 - Our problem requires high accuracy on new unseen data hence insufficient/skewed data could have caused overfitting in SVM train and test data 
 - It is possible to do correlation with categorical data once it has been converted to numerical data through Label Encoding
 - New Machine Learning Models we implemented
-- Other relevant predictors like source of news, sampling techniques and a variety of socio-cultural context datasets could have been improved prediction.
+- Other relevant predictors like source of news, sampling techniques and a variety of socio-cultural context datasets could have  improved prediction.
 
 ## References 
 - [Research Findings](https://arxiv.org/pdf/1703.09398.pdf)
