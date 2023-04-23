@@ -3,7 +3,7 @@
 
 ## About 
 This is a mini-project for SC1015 which focuses on prediction of fake news. Please view the source code in order from : 
-1. [Data Cleaning and Preparation] (https://github.com/Mizzery123/Mini-Project/blob/main/Notebooks/Data%20Cleaning.ipynb/)
+1. [Data Cleaning and Preparation] (main/Notebooks/Data%20Cleaning.ipynb/)
 
 
 ## Team Members 
