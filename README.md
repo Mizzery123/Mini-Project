@@ -83,8 +83,12 @@ How can we effectively differentiate between real and fake news using features o
 - Our problem requires high accuracy on new unseen data hence insufficient/skewed data could have caused overfitting in SVM train and test data 
 - It is possible to do correlation with categorical data once it has been converted to numerical data through Label Encoding
 - New Machine Learning Models we implemented
-- Other relevant predictors like source of news, sampling techniques and a variety of socio-cultural context dataset could have been used
+- Other relevant predictors like source of news, sampling techniques and a variety of socio-cultural context datasets could have been improved prediction.
 
 ## References 
-
+- [Research Findings](https://arxiv.org/pdf/1703.09398.pdf)
+- [Research Findings 2](https://towardsdatascience.com/fake-news-detector-with-deep-learning-approach-part-i-eda-757f5c052)
+- [Research Paper](https://dr.ntu.edu.sg/bitstream/10356/147544/2/FYP%20-%20Elbert%20Widjaja%20-%20Fake%20News%20Detection%20using%20Social%20Media%20Data.pdf) 
+- [Cleaning and Preparation](https://www.dataquest.io/blog/how-to-clean-and-prepare-your-data-for-analysis/)
+- [Sentiment Analysis](https://www.kirenz.com/post/2021-12-11-text-mining-and-sentiment-analysis-with-nltk-and-pandas-in-python/text-mining-and-sentiment-analysis-with-nltk-and-pandas-in-python/1)
 
