@@ -1,17 +1,21 @@
 # SC1015 Mini Project A124 Team 9 - Detecting Fake News
 ![image](https://user-images.githubusercontent.com/41039452/233805482-b8e6ebb2-7c03-4af3-900e-36abadd03517.png)
 
+## About 
+This is a mini-project for SC1015 which focuses on prediction of fake news. Please view the source code in order from : 
+1. [Data Cleaning and Preparation] (#)
 
 
 ## Team Members 
-@Mizzery123 Lim Shao Jie - Machine Learning 
-@
+- @weihseun Ling Wei Hsuen - Data Preparation 
+- @pushparajanroshini Pushparajan Roshini - Exploratory Data Analysis [EDA]
+- @Mizzery123 Lim Shao Jie - Machine Learning 
 
 ## Practical Motivation
-Ill effects of false and dis-information today, especially the recent anti-asian hate crimes from covid-19. 
+ Ill effects of false and dis-information today, especially the recent anti-asian hate crimes from Covid-19. 
 
-## Problem Formulation
-Differentiating between real and fake news using feature's of the article
+## Problem Formulation & Statement
+Differentiating between real and fake news using different features of the article
 
 ## Data Preparation
 #### 1. Cleaning of junk values in excel:
