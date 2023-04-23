@@ -4,7 +4,7 @@
 ## About 
 This is a mini-project for SC1015 which focuses on prediction of fake news. Please view the source code in order from : 
 1. [Data Cleaning and Preparation](https://github.com/Mizzery123/Mini-Project/blob/main/Notebooks/Data%20Cleaning.ipynb)
-2. [Exploratory Data Analysis & Visualization](https://github.com/Mizzery123/MiniProject/blob/main/Notebooks/Exploratory%20Data%20Analysis%20%26%20Visualization.ipynb)
+2. [Exploratory Data Analysis & Visualization](https://github.com/Mizzery123/Mini-Project/blob/main/Notebooks/Exploratory%20Data%20Analysis%20%26%20Visualization.ipynb)
 3. [Machine Learning](https://github.com/Mizzery123/Mini-Project/blob/main/Notebooks/Machine%20Learning.ipynb)
 
 [Slides](https://github.com/Mizzery123/Mini-Project/blob/main/Slides/dsai%20slides%20team%209%20pdf%20updated.pdf) can be accessed here.
