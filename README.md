@@ -11,9 +11,8 @@ This is a mini-project for SC1015 which focuses on prediction of fake news. Plea
    
   
 ## Dataset Used
- Original Dataset : https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
- 
- [Cleaned Dataset](https://github.com/Mizzery123/Mini-Project/tree/main/Dataset) can be retrieved here.
+ [Original Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification) can be retrieved here from Kaggle.
+ [Cleaned Dataset](https://github.com/Mizzery123/Mini-Project/tree/main/Dataset) after our Data Preparation stage can be obtained here.
 
 
 ## Team Members 
@@ -24,8 +23,9 @@ This is a mini-project for SC1015 which focuses on prediction of fake news. Plea
 ## Practical Motivation
 Dire consequences of false and dis-information today, especially due to the increase in recent anti-asian hate crimes from Covid-19 due to spread of fake news
 
-## Problem Formulation & Statement
+## Problem Formulation & Aim
 How can we effectively differentiate between real and fake news using features of the article?
+Which indicator and model is the best for prediction of fake news?
 
 ## Data Preparation
 #### 1. Data Cleaning 
