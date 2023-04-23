@@ -41,29 +41,49 @@ How can we effectively differentiate between real and fake news using features o
 - Emotion Generation 
 #### 4. Final clean-up and saving of cleaned dataset
 
-## Exploratory Data Analysis 
+## Exploratory Data Analysis with title and text data
 #### 1. Initial Assumptions and data-driven insights from dataset and research 
-#### 2. Word Count Analysis of title and text
+- Fake news have longer titles, shorter text, carry heavier emotions, have fewer stopwords 
+#### 2. Word Count Analysis 
+- Number of fake news >> real news 
+- Higher mean of fake news titles but lower mean of fake news text
 #### 3. Corpus Analysis 
 - Unigram and Bigram analysis 
 #### 4. Stopword Count Analysis
+- Fake and Real news contain similar distribution of stopwords
 #### 5. Sentiment Analysis
+- Fake news have more negative polarity
 #### 6. Emotion Analysis
+- Fake news text display heavier emotions
 #### 7. Correlation
+- All indicators do not have any strong linear relationship
 
+## 8 Indicators Used 
+- Title and Text word count 
+- Title and Text stopword count
+- Title and Text emotions
+- Title and Text sentiment polarity
 
-
-##  Models used
+##  Models used in Machine Learning
 1. Logistic Regression
 2. Decision Tree
 3. Random Forest
-4. Support Vector Machine Classifier
-5. Ensemble
+4. Support Vector Machine Classifier [SVM]
+5. Ensemble : combination of all the 4 models
 
-## Outcome
-#### - 
+##  Results
+| Outcome    | Model            | Accuracy  |
+| ---------- | --------------------- | --------- |
+| Best       | Logistic Regression   | 96.1  93.3|
+| Inaccurate | SVM                   | 97.4  50.0|
+| Worst      | Ensemble              | 70.1      |
 
 
+## Conclusion and what we learnt 
+- Our problem requires high accuracy on new unseen data hence insufficient/skewed data could have caused overfitting in SVM train and test data 
+- It is possible to do correlation with categorical data once it has been converted to numerical data through Label Encoding
+- New Machine Learning Models we implemented
+- Other relevant predictors like source of news, sampling techniques and a variety of socio-cultural context dataset could have been used
 
 ## References 
 
