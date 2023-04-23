@@ -42,8 +42,15 @@ How can we effectively differentiate between real and fake news using features o
 #### 4. Final clean-up and saving of cleaned dataset
 
 ## Exploratory Data Analysis 
-#### 1. Word Count 
-#### 1. Word Count 
+#### 1. Initial Assumptions and data-driven insights from dataset and research 
+#### 2. Word Count Analysis of title and text
+#### 3. Corpus Analysis 
+- Unigram and Bigram analysis 
+#### 4. Stopword Count Analysis
+#### 5. Sentiment Analysis
+#### 6. Emotion Analysis
+#### 7. Correlation
+
 
 
 ##  Models used
