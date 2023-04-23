@@ -86,7 +86,7 @@ Which indicator and model is the best for prediction of fake news?
 - Other relevant predictors like source of news, sampling techniques and a variety of socio-cultural context datasets could have  improved prediction.
 
 ## References 
-- [Research Findings](https://arxiv.org/pdf/1703.09398.pdf)
+- [Research Findings 1](https://arxiv.org/pdf/1703.09398.pdf)
 - [Research Findings 2](https://towardsdatascience.com/fake-news-detector-with-deep-learning-approach-part-i-eda-757f5c052)
 - [Research Paper](https://dr.ntu.edu.sg/bitstream/10356/147544/2/FYP%20-%20Elbert%20Widjaja%20-%20Fake%20News%20Detection%20using%20Social%20Media%20Data.pdf) 
 - [Cleaning and Preparation](https://www.dataquest.io/blog/how-to-clean-and-prepare-your-data-for-analysis/)
