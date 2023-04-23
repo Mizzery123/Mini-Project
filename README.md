@@ -3,45 +3,47 @@
 
 ## About 
 This is a mini-project for SC1015 which focuses on prediction of fake news. Please view the source code in order from : 
-1. [Data Cleaning and Preparation] (#https://github.com/Mizzery123/Mini-Project/blob/main/Notebooks/Data%20Cleaning.ipynb)
+1. [Data Cleaning and Preparation](https://github.com/Mizzery123/Mini-Project/blob/main/Notebooks/Data%20Cleaning.ipynb)
+2. [Exploratory Data Analysis & Visualization](https://github.com/Mizzery123/MiniProject/blob/main/Notebooks/Exploratory%20Data%20Analysis%20%26%20Visualization.ipynb)
+3. [Machine Learning](https://github.com/Mizzery123/Mini-Project/blob/main/Notebooks/Machine%20Learning.ipynb)
+
+[Slides](https://github.com/Mizzery123/Mini-Project/blob/main/Slides/dsai%20slides%20team%209%20pdf%20updated.pdf) can be accessed here.
+   
+  
+## Dataset Used
+ Original Dataset : https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
+ 
+ [Cleaned Dataset](https://github.com/Mizzery123/Mini-Project/tree/main/Dataset) can be retrieved here.
 
 
 ## Team Members 
-- @weihseun Ling Wei Hsuen - Data Preparation 
+- @weihsuen Ling Wei Hsuen - Data Preparation 
 - @pushparajanroshini Pushparajan Roshini - Exploratory Data Analysis [EDA]
 - @Mizzery123 Lim Shao Jie - Machine Learning 
 
 ## Practical Motivation
- Ill effects of false and dis-information today, especially the recent anti-asian hate crimes from Covid-19. 
+Dire consequences of false and dis-information today, especially due to the increase in recent anti-asian hate crimes from Covid-19 due to spread of fake news
 
 ## Problem Formulation & Statement
-Differentiating between real and fake news using different features of the article
+How can we effectively differentiate between real and fake news using features of the article?
 
 ## Data Preparation
-#### 1. Cleaning of junk values in excel:
-Examples of junk values are text in index columns
-#### 2. Importing dataset:
-Requires “encoding='ISO-8859-1'” to read csv
-#### 3. Data Cleaning
-Replacing column labels for better visualisation
+#### 1. Data Cleaning 
+- Junk Values in Excel 
+- Dropping NaN values, relabelling of columns 
+- Changing improper data types 
+#### 2. Removal of irrelevant values 
+- Symbols, Stopwords from title and text 
+#### 3. Created new columns 
+- Title,text and stopword count
+- Lemmatisation and Tokenisation 
+- Sentiment Generation using polarity scores 
+- Emotion Generation 
+#### 4. Final clean-up and saving of cleaned dataset
 
-Dropping rows with NaN values according to the 5% missing data rule
-
-Changing dtypes
-#### 4. Creating new columns 
-#### 5. Removal of symbols from title and text by creating function
-#### 6. Removal and counting of stopwords from title and text by creating function
-Using nltk.corpus
-#### 7. Lemmatisation and Tokenisation by creating function
-Lemmatisation is the process of converting words to their root form
-#### 8. Sentiment Generation - polarity by creating function
-Using SentimentIntensityAnalyzer from nltk.sentiment.vader
-
-Limited words to 30 for time considerations
-#### 9. Emotion Generation by creating function
-using python package text2emotion
-#### 10. Final clean-up and saving of dataset
-
+## Exploratory Data Analysis 
+#### 1. Word Count 
+#### 1. Word Count 
 
 
 ##  Models used
@@ -55,9 +57,6 @@ using python package text2emotion
 #### - 
 
 
-
-## Dataset Used
-#### https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
 
 ## References 
 
