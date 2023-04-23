@@ -4,7 +4,8 @@
 
 
 ## Team Members 
-
+@Mizzery123 Lim Shao Jie - Machine Learning 
+@
 
 ## Practical Motivation
 Ill effects of false and dis-information today, especially the recent anti-asian hate crimes from covid-19. 
